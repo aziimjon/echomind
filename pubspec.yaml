@@ -1,0 +1,61 @@
+name: echomind
+description: "EchoMind — Private on-device AI Personal Journal & Mental Mirror"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  fl_chart: ^0.70.2
+  flutter_animate: ^4.5.2
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Database & Storage
+  isar_community: ^3.3.2
+  isar_flutter_libs: ^3.0.5
+  path_provider: ^2.1.5
+  shared_preferences: ^2.3.5
+
+  # Audio & Speech
+  record: ^5.2.0
+  speech_to_text: ^7.0.0
+
+  # AI & Machine Learning
+  flutter_gemma: ^0.13.2
+  tflite_flutter: ^0.11.0
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  permission_handler: ^11.4.0
+  dio: ^5.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.4.0
+  isar_generator: ^3.0.5
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/lottie/
